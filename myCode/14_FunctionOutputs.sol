@@ -11,7 +11,7 @@ contract FunctionOutputs {
         return(1,true);
     }
     // 隐式返回
-    function assigned() public pure returns(uint x,bool y){
+    function assigned() public pure returns(uint x,bool b){
         x=1;
         b=true;
     }
