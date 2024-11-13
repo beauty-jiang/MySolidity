@@ -1,0 +1,131 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "myString",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"myString\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/jiangyu/Desktop/MySolidity/myCode/01_hello_world.sol\":\"HelloWorld\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"c:/Users/jiangyu/Desktop/MySolidity/myCode/01_hello_world.sol\":{\"keccak256\":\"0xc50dcdefee2015844a8f779103147de5d67ade53ae4e32adaf2be08240c1663e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ab68fb6e71c10b54decbf21c8ff86ef5e2fedd6a55a9acebf9b7289e0c9d6d4e\",\"dweb:/ipfs/QmUmTwwPFHXMaqQMDfM7GvP8iWV4XFf14APHTD7GFaRpML\"]}},\"version\":1}",
+    "bytecode": "6080806040523460b9575f54600181811c9116801560b0575b6020821014609c57601f81116058575b507f68656c6c6f20776f726c640000000000000000000000000000000000000000165f5561018f90816100be8239f35b5f8052601f0160051c7f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563908101905b818110609257506028565b5f81556001016087565b634e487b7160e01b5f52602260045260245ffd5b90607f16906018565b5f80fdfe6080600436101561000e575f80fd5b5f3560e01c63492bfa1814610021575f80fd5b34610155575f366003190112610155575f5f54908160011c6001831692831561014b575b60208210841461013757818552602085019390811561011e57506001146100ca575b50829003601f01601f191682019167ffffffffffffffff8311818410176100b6576040918391828452602083525180918160208501528484015e5f828201840152601f01601f19168101030190f35b634e487b7160e01b5f52604160045260245ffd5b90505f80527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635f905b8282106101085750602091508301015f610067565b60018160209254838589010152019101906100f3565b60ff1916845250151560051b830160200190505f610067565b634e487b7160e01b5f52602260045260245ffd5b90607f1690610045565b5f80fdfea26469706673582212209069a0e88968cbf99b8129a2e3e1881e538c72baaea8d1bfcff0549e985aac8c64736f6c634300081c0033",
+    "deployedBytecode": "6080600436101561000e575f80fd5b5f3560e01c63492bfa1814610021575f80fd5b34610155575f366003190112610155575f5f54908160011c6001831692831561014b575b60208210841461013757818552602085019390811561011e57506001146100ca575b50829003601f01601f191682019167ffffffffffffffff8311818410176100b6576040918391828452602083525180918160208501528484015e5f828201840152601f01601f19168101030190f35b634e487b7160e01b5f52604160045260245ffd5b90505f80527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635f905b8282106101085750602091508301015f610067565b60018160209254838589010152019101906100f3565b60ff1916845250151560051b830160200190505f610067565b634e487b7160e01b5f52602260045260245ffd5b90607f1690610045565b5f80fdfea26469706673582212209069a0e88968cbf99b8129a2e3e1881e538c72baaea8d1bfcff0549e985aac8c64736f6c634300081c0033",
+    "sourceMap": "59:71:0:-:0;;;;;;;111:13;59:71;;;;;;;;;;;-1:-1:-1;59:71:0;;;;;;;;;;;-1:-1:-1;;59:71:0;111:13;59:71;;;;;;;;;111:13;59:71;;;;;;;;;;;;;;;;;;;;;111:13;59:71;;;;;;;;;;111:13;59:71;;;;;111:13;59:71;;;;;;;;;;;",
+    "deployedSourceMap": "59:71:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:71:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;59:71:0;;;;;-1:-1:-1;;59:71:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:71:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;59:71:0;;;-1:-1:-1;59:71:0;;;;;;;;;-1:-1:-1;59:71:0;;;;;;;;;;;;;;;;;;;;;;;;;",
+    "sourcePath": "c:/Users/jiangyu/Desktop/MySolidity/myCode/01_hello_world.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.28+commit.7893614a"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/jiangyu/Desktop/MySolidity/myCode/01_hello_world.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                5
+            ]
+        },
+        "id": 6,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".7"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "34:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWorld",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 5,
+                "linearizedBaseContracts": [
+                    5
+                ],
+                "name": "HelloWorld",
+                "nameLocation": "68:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "492bfa18",
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "myString",
+                        "nameLocation": "100:8:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 5,
+                        "src": "86:38:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "86:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "68656c6c6f20776f726c64",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "111:13:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_47173285a8d7341e5e972fc677286384f802f8ef42a5ec5f03bbfa254cb01fad",
+                                "typeString": "literal_string \"hello world\""
+                            },
+                            "value": "hello world"
+                        },
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 6,
+                "src": "59:71:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "34:96:0"
+    },
+    "functionHashes": {
+        "myString()": "492bfa18"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "79800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "myString()": "infinite"
+        }
+    }
+}
