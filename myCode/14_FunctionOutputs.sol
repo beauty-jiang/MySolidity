@@ -20,6 +20,6 @@ contract FunctionOutputs {
     function destructingAssigments() public pure{
         (uint x,bool b) = returnMany();
         // 假如只用一个呢？
-        (,bool b) = returnMany();
+        // (,bool b) = returnMany();
     }
 }
