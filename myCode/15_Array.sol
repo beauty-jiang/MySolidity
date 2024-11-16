@@ -42,9 +42,9 @@ contract Array {
 
 
     // 数组的删除 - 通过替换
-    // 规则：数组的最后一个元素替换要删除的元素，再把最后一个pop
+    // 规则：数组的最后一个元素替换要删除的元素，再把最后一个pop；
     // [1,2,3,4,5,6] - remove(2) - [1,2,6,4,5,6] - [1,2,6,4,5]
-    // 优点：节省gas；缺点：数组顺序乱了
+    // 优点：节省gas；缺点：数组顺序乱了 
     function removeReplace(uint _index) public{
         arr[_index] = arr[arr.length-1]
         arr.pop()
