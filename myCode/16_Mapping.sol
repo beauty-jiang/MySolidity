@@ -9,6 +9,6 @@ contract Mapping {
     function examples() external {
         balances[msg.sender] = 123;
         uint bal = balances[msg.sender];
-        uint bal2 = balances [address(1)]
+        uint bal2 = balances [address(1)];
     }
 }

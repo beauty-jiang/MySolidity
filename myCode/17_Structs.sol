@@ -10,7 +10,7 @@ contract Structs {
         string name;
     }
     // 以cat为类型定义一个cat变量；结构体用大写开头；变量小写开头
-    Cat public cat
+    Cat public cat;
     // 以cat为类型定义一个cats的数组；
     Cat[] public cats;
     // 以cat为类型定义一个映射；
