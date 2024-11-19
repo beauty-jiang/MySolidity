@@ -1,6 +1,7 @@
  // SPDX-License-Identifier: MIT 
 pragma solidity ^0.8.7;
 
+// 简单存储
 contract SimpleStorage {
     string public text;
 
