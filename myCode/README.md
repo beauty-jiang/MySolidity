@@ -34,3 +34,5 @@
 
 18_Enum 枚举
 
+19_SimpleStorage 简单存储
+
