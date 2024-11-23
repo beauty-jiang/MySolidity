@@ -39,3 +39,5 @@
 20_TodoList.sol 小练习-待办事件列表
 
 21_Event.sol 事件
+
+22_Inheritance.sol 继承
