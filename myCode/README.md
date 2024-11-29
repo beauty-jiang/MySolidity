@@ -59,3 +59,5 @@
 30_DelegateCall 委托调用
 
 31_New new语句部署合约
+
+32_Library.sol 库合约
