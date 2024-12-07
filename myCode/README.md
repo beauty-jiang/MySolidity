@@ -36,11 +36,11 @@
 
 19_SimpleStorage 简单存储
 
-20_TodoList.sol 小练习-待办事件列表
+20_TodoList 小练习-待办事件列表
 
-21_Event.sol 事件
+21_Event 事件
 
-22_Inheritance.sol 继承
+22_Inheritance 继承
 
 23_ParentConstructors 运行父级合约构造函数
 
@@ -52,7 +52,7 @@
 
 27_Fallback 回退函数
 
-28_SendEth.sol 合约发送ETH
+28_SendEth 合约发送ETH
 
 29_EtherWallet 小总结demo钱包合约
 
@@ -60,4 +60,22 @@
 
 31_New new语句部署合约
 
-32_Library.sol 库合约
+32_Library 库合约
+
+33_Hash 哈希运算
+
+34_Sig 验证签名
+
+35_AccessControl 小练习-权限控制
+
+36_Kill 自毁合约
+
+37_PiggyBank 小练习-小猪存钱罐
+
+38_ERC20 ERC20合约
+
+<!-- 多签钱包-没写 -->
+      
+39_FunctionSelector 函数签名
+
+<!-- 英拍卖、荷兰拍卖 众筹合约 - 没写 -->
